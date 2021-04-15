@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+
+  background-color: $background_color;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.caption {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+
+.caption--orange {
+  color: $orange;
+  text-transform: uppercase;
+}
+
+.small-caption {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}

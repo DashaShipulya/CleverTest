@@ -1,0 +1,153 @@
+.price-list {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.price-list--popular,
+.price-list--other {
+  width: 100%;
+  height: 100%;
+  background-color: #ebf5f4;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__caption {
+    width: 35px;
+    height: 100%;
+    margin: auto;
+
+    line-height: 35px;
+    color: #46a690;
+    p {
+      writing-mode: tb-rl;
+      transform:rotate(180deg);
+
+      text-align: center;
+    }
+  }
+  &__content {
+    width: calc(100% - 35px);
+    height: 100%;
+    background: #fff;
+  }
+}
+
+.row__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 25px;
+
+  height: 50px;
+
+  font-size: 14px;
+  color: #666666;
+
+  &--item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(70% / 4);
+    height: 100%;
+    text-align: center;
+
+    border-radius: 10px;
+  }
+
+    &--caption {
+    display: block;
+    width: 30%;
+    text-align: left;
+  }
+}
+.row__content input[type=checkbox] {
+    display: none;
+}
+
+.content-title {
+    color: #000;
+    font-weight: bold;
+  }
+
+.item-click {
+  transition: color 0.2 ease;
+  transition: background-color 0.2 ease;
+
+  &:focus,
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.item-click input[type=checkbox]:checked + span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  background-color: #ebf5f4;
+  border-radius: 10px;
+  color: #3fa398;
+}
+
+.row__content--active {
+  background-color: #f8f9f9;
+  border-radius: 10px;
+}
+.price-list--other {
+  background-color: #fdf3e8;
+}
+.price-list--other__caption {
+  color: #ed891f;
+  height: 100%;
+}
+
+//================PRICE-LIST | SUMMARY========
+
+.price-list__summary {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  .bold-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-right: 20px;
+  }
+  .summary {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+}
+
+.button {
+  display: block;
+  width: 340px;
+  height: 50px;
+  background-color: $button_background;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+  line-height: 50px;
+  padding: 0 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}

@@ -1,0 +1,53 @@
+.team {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+
+  .subtitle {
+    margin-bottom: 30px;
+  }
+}
+
+.team__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  margin: -10px;
+
+  .team__item {
+    flex: 1 1 25%;
+    min-width: 200px;
+    height: auto;
+
+    padding: 10px;
+  }
+}
+
+.item--background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item--customers {
+  background-image: url(../images/back-image.png);
+}
+.item--witers {
+  background-image: url(../images/back-image2.png);
+}
+.item--quality {
+  background-image: url(../images/back-image3.png);
+}
+.item--writers {
+  background-image: url(../images/back-image4.png);
+}

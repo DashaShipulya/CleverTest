@@ -1,0 +1,98 @@
+@import "./variables";
+@import "./base";
+@import "./main";
+@import "./header";
+@import "./breadcrumbs";
+@import "./capabilities__list";
+@import "./price-form";
+@import "./price-list";
+@import "./sidebar";
+@import "./team";
+@import "./footer";
+
+
+//================MEDIA==================
+
+@media screen and (max-width: 1240px) {
+  .wrapper {
+    max-width: 1040px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 824px;
+  }
+  .button {
+    width: 240px;
+    padding: 0 25px;
+  }
+  .article__item {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .wrapper {
+    width: 85%;
+    max-width: inherit;
+  }
+
+  .main-content__wrapper {
+    display: block;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .team__list .team__item {
+    flex: 1 1 50%;
+  }
+}
+
+
+@media screen and(max-width: 590px) {
+ .capabitities__item {
+   flex: 1 1 50%;
+   max-width: 200px;
+  }
+  .price-form__line {
+    flex-direction: column;
+    align-items: flex-start;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .price-list__summary {
+    align-items: flex-start;
+    margin: 25px 0;
+  }
+}
+
+@media screen and(max-width: 420px) {
+  .price-list__summary {
+    flex-direction: column;
+    align-items: center;
+  }
+  .summary__item .price-form__line {
+    flex-direction: row;
+  }
+  .price-form__line input {
+    width: 100%;
+  }
+  .capabitities__item  {
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+

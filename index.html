@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Clever</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="wrapper"></div>
+  </header>
+
+  <main class="main">
+    <div class="wrapper">
+
+      <div class="main-content__wrapper">
+
+        <div class="main-content">
+
+          <div class="nav">
+            <ul class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Pages</a></li>
+              <li>Prices</li>
+            </ul>
+          </div>
+
+          <div class="main-content__image-block">
+            <h1 class="title">Prices</h1>
+            <p>The following information s considered when charging the order:</p>
+
+            <div class="capabilities__list">
+              <div class="item capabitities__item">
+                <div class="item--background item-duedate">
+                  <img src="assets/images/icon-clock.png" alt="duedate">
+                </div>
+                <p class="small-caption">Your duedate</p>
+              </div>
+              <div class="item capabitities__item">
+                <div class="item--background item-academic">
+                  <img src="assets/images/icon-academic.png" alt="academic">
+                </div>
+                <p class="small-caption">Academic level</p>
+              </div>
+              <div class="item capabitities__item">
+                <div class="item--background item-pages">
+                  <img src="assets/images/icon-pages.png" alt="pages">
+                </div>
+                <p class="small-caption">Pages/words</p>
+              </div>
+            </div>
+          </div>
+
+          <form action="/" class="price-form">
+            <div class="price-form__line">
+              <p class="form-text">Select currency</p>
+              <div class="currency__list">
+                <div class="currency__item">
+                  <input id="radio-usd" type="radio" name="currency" value="usd" checked>
+                  <label class="radio-usd" for="radio-usd">USD</label>
+                </div>
+                <div class="currency__item">
+                  <input id="radio-eur" type="radio" name="currency" value="eur">
+                  <label class="radio-eur" for="radio-eur">EUR</label>
+                </div>
+                <div class="currency__item">
+                  <input id="radio-cad" type="radio" name="currency" value="xad">
+                  <label class="radio-cad" for="radio-cad">CAD</label>
+                </div>
+                <div class="currency__item">
+                  <input id="radio-gbr" type="radio" name="currency" value="gbr">
+                  <label class="radio-gbr" for="radio-gbr">GBR</label>
+                </div>
+                <div class="currency__item">
+                  <input id="radio-aud" type="radio" name="currency" value="aud">
+                  <label class="radio-aud" for="radio-aud">AUD</label>
+                </div>
+              </div>
+            </div>
+            <div class="price-form__line">
+              <p class="form-text">Type of services</p>
+              <input class="text-input" type="text" name="services" placeholder="Resume/CV services">
+            </div>
+            <div class="price-form__line">
+              <p class="form-text">Type level</p>
+              <select class="price-form__select" name="level">
+                <option>Entry</option>
+                <option>Mid</option>
+                <option>Senior</option>
+              </select>
+            </div>
+          </form>
+
+          <div class="price-list">
+            <form class="pricelist__form">
+
+              <div class="price-list--popular">
+                <div class="price-list--popular__caption">
+                  <p>Most popular</p>
+                </div>
+                <div class="price-list--popular__content">
+                    <div class="row__content content-title">
+                      <p class="row__content--caption">Services</p>
+                      <p class="row__content--item">5 days</p>
+                      <p class="row__content--item">3 days</p>
+                      <p class="row__content--item">48 hourse</p>
+                      <p class="row__content--item">24 hourse</p>
+                    </div>
+                    <div class="row__content row__content--active">
+                      <p class="row__content--caption">Resume writing</p>
+                      <label class="row__content--item item-click">
+                        <input type="checkbox" value='125.55'/><span>$125.55</span>
+                      </label>
+                      <label class="row__content--item item-click">
+                        <input type="checkbox" value='125.55'/>
+                        <span>$125.55</span>
+                      </label>
+                      <label class="row__content--item item-click" >
+                        <input class="" type="checkbox" value='125.55'/>
+                        <span>$125.55</span>
+                      </label>
+                      <label class="row__content--item item-click">
+                        <input type="checkbox" value='125.55'/>
+                        <span>$125.55</span>
+                      </label>
+                    </div>
+                    <div class="row__content">
+                      <p class="row__content--caption">Online Resume Storage</p>
+                      <label class="row__content--item item-click">
+                        <input type="checkbox" value='125.55'/><span>$125.55</span>
+                      </label>
+                      <label class="row__content--item item-click">
+                        <input type="checkbox" value='125.55'/>
+                        <span>$125.55</span>
+                      </label>
+                      <label class="row__content--item item-click" >
+                        <input type="checkbox" value='125.55'/>
+                        <span>$125.55</span>
+                      </label>
+                      <label class="row__content--item item-click">
+                        <input type="checkbox" value='125.55'/>
+                        <span>$125.55</span>
+                      </label>
+                    </div>
+                </div>
+              </div>
+
+              <div class="price-list--other">
+                <div class="price-list--other__caption">
+                  <p>Other</p>
+                </div>
+                <div class="price-list--other__content">
+                  <div class="row__content row__content--active">
+                    <p class="row__content--caption">New! E-Cover Letter Writing</p>
+                    <label class="row__content--item item-click">
+                      <input type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                    <label class="row__content--item item-click">
+                      <input type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                    <label class="row__content--item item-click" >
+                      <input class="" type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                    <label class="row__content--item item-click">
+                      <input type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                  </div>
+                  <div class="row__content">
+                    <p class="row__content--caption">Resume Distribution to Employment Agencies</p>
+                    <label class="row__content--item item-click">
+                      <input type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                    <label class="row__content--item item-click">
+                      <input type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                    <label class="row__content--item item-click" >
+                      <input type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                    <label class="row__content--item item-click">
+                      <input type="checkbox" value='125.55'/>
+                      <span>$125.55</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+            </form>
+          </div>
+          <div class="price-list__summary">
+            <div class="summary__item">
+              <div class="price-form__line">
+                <p class="bold-text">Total price:</p>
+                <p class="summary">$0.00</p>
+              </div>
+            </div>
+            <button class="button" type="submit">
+              Proceed to order
+            </button>
+          </div>
+        </div>
+
+        <aside class="sidebar">
+          <div class="sidebar__wrapper">
+
+            <div class="sidebar__decor">
+              <img class="decor--cloud" src="assets/images/cloud.png" alt="">
+              <img class="decor--bigcloud" src="assets/images/big-cloud.png" alt="">
+              <img class="decor--smallcloud" src="assets/images/small-cloud.png" alt="">
+            </div>
+
+            <div class="sidebar__list-acticles">
+              <div class="article__item">
+                <span class="line">
+                  <img src="assets/images/grass-sidebar.png" alt="">
+                  <h2>Free Features</h2>
+                </span>
+                <p>Lorem ipsum dolor sit amet, co
+                  nsectetur adipisicing elit.
+                  Adipisci amet, architecto c
+                  umque libero magni minima no
+                  bis non sunt tempora v
+                  oluptatum!Lorem ipsit amet, co
+                  nsectetur adipisicing elit.
+                  Adipisci amet, architecto c
+                  umque libero magni minima no
+                  bis non sunt tempora v
+                  oluptatum!Lorem ipsumamet, co
+                  nsectetur adipisicing elit.
+                  Adipisci amet, architecto c
+                  umque libero magni minima no
+                  bis non sunt tempora v
+                  oluptatum!</p>
+              </div>
+              <div class="article__item">
+                <p>Lorem ipsum dolor sit amet, co
+                  nsectetur adipisicing elit.
+                  Adipisci amet, architecto c
+                  umque libero magni minima no
+                  bis non sunt tempora v
+                  oluptatum!Lorem ipsit amet, co
+                  nsectetur adipisicing elit.
+                  Adipisci amet, architecto c
+                  umque libero magni minima no
+                  bis non sunt tempora v
+                  oluptat</p>
+              </div>
+              <div class="article__item">
+                <p>Lorem ipsum dolor sit amet, co
+                  nsectetur adipisicing elit.
+                  Adipisci amet, architecto c
+                  umque libero magni minima no
+                  bis non sunt tempora v
+                  oluptatum!Lorem ipsit amet, co
+                  nsectetur adipisicing elit.
+                  Adipisci amet, architecto c
+                  umque libero magni minima no
+                  bis non sunt tempora v
+                  oluptat</p>
+              </div>
+            </div>
+
+          </div>
+        </aside>
+
+      </div>
+
+      <div class="team">
+        <h2 class="subtitle">Our Stats</h2>
+
+        <div class="team__list">
+          <div class="item team__item">
+            <div class="item--background team__item--background item--customers">
+              <img src="assets/images/image.png" alt="">
+            </div>
+            <p class="caption">Customers</p>
+            <p class="caption caption--orange">665</p>
+          </div>
+          <div class="item team__item">
+            <div class="item--background item--background team__item--background item--witers">
+              <img src="assets/images/image2.png" alt="">
+            </div>
+            <p class="caption">Writers active</p>
+            <p class="caption caption--orange">169</p>
+          </div>
+          <div class="item team__item">
+            <div class="item--background team__item--background item--quality">
+              <img src="assets/images/image3.png" alt="">
+            </div>
+            <p class="caption">Average quality score</p>
+            <p class="caption caption--orange">9.5/10</p>
+          </div>
+          <div class="item team__item">
+            <div class="item--background team__item--background item--writers">
+              <img src="assets/images/image4.png" alt="">
+            </div>
+            <p class="caption">Writers online</p>
+            <p class="caption caption--orange">73</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__decor">
+        <div class="footer__decor-item--top">
+          <img src="assets/images/darkgrass-footer.png" alt="decor-flower">
+        </div>
+        <div class="footer__decor-item--bottom">
+          <img src="assets/images/lightgrass-footer.png" alt="decor-flower">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

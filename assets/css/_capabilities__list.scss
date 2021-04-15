@@ -1,0 +1,27 @@
+.capabilities__list {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  margin: 20px 0 40px 0;
+
+  .capabitities__item {
+    flex: 1 1 33.333%;
+    min-width: 150px;
+    height: auto;
+  }
+}
+.item-duedate {
+  background-image: url(../images/back-clock.png);
+}
+.item-academic {
+  background-image: url(../images/back-academic.png);
+}
+.item-pages {
+  background-image: url(../images/back-pages.png);
+}

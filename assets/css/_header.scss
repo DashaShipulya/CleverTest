@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: $header_color;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  transition: all 0.2s;
+}
+
+.header.active {
+  background-color: $orange;
+  transition: all 0.2s;
+}
